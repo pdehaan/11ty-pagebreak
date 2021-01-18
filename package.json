@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "eleventy",
-    "postbuild": "prettier www --write",
+    "postbuild": "prettier www --write --loglevel=silent",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
