@@ -10,6 +10,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "common-tags": "^1.8.0",
+    "del": "^6.0.0",
     "prettier": "^2.2.1"
   },
   "homepage": "https://github.com/pdehaan/11ty-pagebreak#readme",

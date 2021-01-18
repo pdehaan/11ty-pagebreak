@@ -4,7 +4,7 @@ pagination:
   data: about
   size: 1
   alias: section
-permalink: "/about/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}{% endif %}/"
+permalink: "/about/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}{% endif %}/"
 layout: layouts/base.liquid
 ---
 
